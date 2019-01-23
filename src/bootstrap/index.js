@@ -16,7 +16,7 @@ const setting = {
    * 绑定到主系统后的 contextPath
    */
   basePath: "/"+moduleKey,
-  name: "支付管理",
+  name: "{{moduleName}}",
   /**
    * api host
    */
