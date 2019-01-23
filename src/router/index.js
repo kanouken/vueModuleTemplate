@@ -9,21 +9,21 @@ const myRouters = [
   {
     path: "index",
     component: layout,
-    name: "paymentIndex",
+    name: "{{moduleKey}}Index",
     meta: { title: "首页", icon: "el-icon-news", type: 0 }
   },
 
   {
     path: "level1",
     component: layout,
-    name: "paymentLevel1",
+    name: "{{moduleKey}}Level1",
     meta: { title: "一级菜单", icon: "el-icon-news", type: 1 },
     children: [
       {
         path: "level2",
         component: () =>
-          import("cyberway-msf-frontend-web-payment/src/views/foo/index.vue"),
-        name: "paymentLevel2",
+          import("{{name}}/src/views/foo/index.vue"),
+        name: "{{moduleKey}}Level2",
         meta: { title: "二级菜单", icon: "el-icon-news", type: 2 }
       },
 
