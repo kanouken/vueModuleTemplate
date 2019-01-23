@@ -2,8 +2,7 @@
  * 网络请求工具包
  */
 import axios from "axios";
-import bootstrap from "../bootstrap";
-const baseUrl = bootstrap.apiHost;
+const baseUrl = process.env.VUE_APP_BASE_API
 const service = axios.create({
   baseURL: baseUrl, // api的base_url
   timeout: 50000 // 请求超时时间
