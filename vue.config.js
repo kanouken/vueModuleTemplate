@@ -6,6 +6,6 @@ module.exports = {
     lintOnSave: true,
     chainWebpack: (config)=>{
         config.resolve.alias
-            .set('cyberway-msf-frontend-web-payment', __dirname)
+            .set('{{name}}', __dirname)
     }
 }
