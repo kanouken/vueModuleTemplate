@@ -1,5 +1,5 @@
 {
-  "name": "cyberway-msf-frontend-web-payment",
+  "name": "{{name}}"
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
