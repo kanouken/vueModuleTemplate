@@ -2,7 +2,7 @@
  * 系统名称
  * @type {string}
  */
-const moduleKey = "payment"
+const moduleKey = "{{moduleKey}}"
 const setting = {
   /**
    * 定义模块key 唯一
@@ -11,7 +11,7 @@ const setting = {
   /**
    * 启动界面
    */
-  entryPage: "/payment/index",
+  entryPage: "/{{moduleKey}}/index",
   /**
    * 绑定到主系统后的 contextPath
    */
