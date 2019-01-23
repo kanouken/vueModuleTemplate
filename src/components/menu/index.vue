@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import {menus} from "cyberway-msf-frontend-web-payment/src/menu";
+import {menus} from "../../menu";
 
 export default {
   name: "myMenu",
