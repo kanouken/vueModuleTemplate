@@ -1,6 +1,6 @@
-import router from "cyberway-msf-frontend-web-payment/src/router";
-import setting from "cyberway-msf-frontend-web-payment/src/bootstrap";
-import {menus} from "cyberway-msf-frontend-web-payment/src/menu";
+import router from "./src/router";
+import setting from "./src/bootstrap";
+import {menus} from "./src/menu";
 
 //路由 系统配置 菜单
 
