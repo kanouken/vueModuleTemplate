@@ -20,6 +20,9 @@ Vue.use(Router);
 Vue.use(ElementUI);
 Vue.config.productionTip = false;
 
+/**
+ * 路由挂载到根节点
+ */
 appRouter.forEach(router => {
   router.path = "/" + router.path;
 });
